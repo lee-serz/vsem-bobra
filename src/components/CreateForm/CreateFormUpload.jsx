@@ -26,7 +26,7 @@ function FileUploadButton() {
 
   return (
     <div>
-      <button onClick={handleButtonClick}>Прикрепить файлы</button>
+      <button className='upload-btn' onClick={handleButtonClick}>Прикрепить файлы</button>
       <input type="file" ref={inputRef} onChange={handleFileChange} style={{ display: 'none' }} />
     </div>
   );

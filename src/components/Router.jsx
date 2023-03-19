@@ -3,6 +3,7 @@ import LoginPage from './LoginPage/LoginPage'
 import RegisterPage from './RegisterPage/RegisterPage'
 import MainPage from './MainPage/MainPage'
 import CreatePage from './CreatePage/CreatePage'
+import CoursesPage from './Courses/CoursesPage'
 
 const Router = () => {
     return (
@@ -11,7 +12,8 @@ const Router = () => {
             <Route element={<MainPage/>} path='/' />
             <Route element={<LoginPage/>} path='/login' />
             <Route element={<RegisterPage/>} path='/register' />
-            <Route element={<CreatePage/>} path='/create' />
+            <Route element={<CreatePage/>} path='/api' />
+            <Route element={<CoursesPage/>} path='/api/courses' />
         </Routes>
     </BrowserRouter>
     )

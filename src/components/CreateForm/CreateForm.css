@@ -2,19 +2,21 @@
     width: 70%;
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
 .create-form label {
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 }
+
 
 .create-form-input {
     max-width: 230px;
     height: 30px;
     background: #B3B3B3;
     border: none;
-    margin: 15px;
     outline: none;
     color: #000;
     font-family: 'Montserrat';
@@ -33,4 +35,20 @@
     border: 2px solid #6333FB;
     color: #000;
     cursor: pointer;
+    margin-top: 20px;
+    transition: ease-in-out .4s all;    
+}
+
+
+.create-form_create-btn:hover {
+    color: #fff;
+    background-color: #6333FB;
+}
+
+.upload-btn {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    padding: 15px;
+    margin: 40px 0px;
 }

@@ -12,6 +12,7 @@ import MainStreamPage from './components/StreamPage/MainStreamPage'
 import Chat from './components/ChatModule/Chat'
 import CreatePage from './components/CreatePage/CreatePage'
 import CreateForm from './components/CreateForm/CreateForm'
+import CoursesPage from './components/Courses/CoursesPage'
 
 // STYLES
 
@@ -23,6 +24,7 @@ import './components/HeaderModule/Header.css'
 import './components/CreateForm/CreateForm.css'
 import './components/SidebarModule/Sidebar.css'
 import './components/CreatePage/CreatePage.css'
+import './components/Courses/CoursesPage.css'
 import './index.css'
 
 

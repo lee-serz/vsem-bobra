@@ -54,4 +54,9 @@
     color: #fff;
     text-decoration: none;
     padding: 5px;
+    transition: ease-in-out .4s all;
+}
+.main-page__menu-btn:hover {
+    background-color: #6333FB;
+    color: #fff;
 }

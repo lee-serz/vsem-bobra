@@ -37,7 +37,7 @@ const RegisterPage = () => {
                         placeholder={'Логин'} />
                     <input className="register-form-container__input"
                         type="text"
-                        value={username}
+                        value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder={'Почта'} />
                     <input className="register-form-container__input"
