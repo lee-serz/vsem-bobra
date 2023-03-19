@@ -1,0 +1,36 @@
+.create-form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-form-input {
+    max-width: 230px;
+    height: 30px;
+    background: #B3B3B3;
+    border: none;
+    margin: 15px;
+    outline: none;
+    color: #000;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.create-form_create-btn {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 15px;
+    height: 40px;
+    max-width: 170px;
+    box-sizing: border-box;
+    background: none;
+    border: 2px solid #6333FB;
+    color: #000;
+    cursor: pointer;
+}
