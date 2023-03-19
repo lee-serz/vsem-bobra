@@ -3,12 +3,12 @@ import axios from '../../axios/axios';
 import FileUploadButton from './CreateFormUpload';
 
 function CreateForm() {
-  const [name, setName] = useState('');
+  const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('/api/courses', { name, description })
+    axios.post('/api/courses', { title, description })
       .then(response => {
         console.log(response);
       })
@@ -21,7 +21,7 @@ function CreateForm() {
     <form onSubmit={handleSubmit} className="create-form">
       <label>
         Название курса
-        <input className='create-form-input' type="text" value={name} onChange={e => setName(e.target.value)} />
+        <input className='create-form-input' type="text" value={title} onChange={e => setTitle(e.target.value)} />
       </label>
       <label>
         Описание курса
