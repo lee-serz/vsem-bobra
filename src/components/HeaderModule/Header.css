@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0px 25px;
+    padding: 10px 25px;
     box-sizing: border-box;
 }
 .main-page__menu{
@@ -60,3 +60,15 @@
     background-color: #6333FB;
     color: #fff;
 }
+
+/* adaptive */
+
+@media (max-width: 800px) {
+    .header-logo {
+        width: 200px;
+    }
+
+    .main-page-header {
+        height: 70px;
+    }
+  }

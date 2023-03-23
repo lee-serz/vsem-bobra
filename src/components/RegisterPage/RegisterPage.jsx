@@ -45,7 +45,7 @@ const RegisterPage = () => {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         placeholder={'Пароль'} />
-                    <button className="register-form-btn" type="submit">Зарегаться</button>
+                    <Link to="/" className="register-form-btn" type="submit">Sign Up</Link>
                 </div>
                     <Link className="form-link" to="/login" >Войти </Link>
 

@@ -38,7 +38,7 @@ const LoginPage = () => {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         placeholder={'Пароль'} />
-                    <button className="form-btn" type="submit">Войти</button>
+                    <Link to="/" className="form-btn" type="submit">Sign In</Link>
                 </div>
                 <Link className="form-link" to="/register">Зарегистрироваться</Link>
             </form>

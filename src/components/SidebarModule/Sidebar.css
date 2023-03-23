@@ -1,6 +1,6 @@
 .sidebar {
     padding-top: 30px;
-    width: 23%;
+    width: 22%;
     height: 100vh;
     background: #202020;
     display: flex;
@@ -20,4 +20,11 @@
     background-color: #313131;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media(max-width: 800px) {
+    .sidebar {
+        height: 15vh;
+        width: 100vw;
+    }
 }
